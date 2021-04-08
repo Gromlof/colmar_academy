@@ -1,0 +1,37 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.grey{
+    color: grey;
+}
+
+.carbon{
+    color: rgb#322f32;
+}
+
+.br_grey{
+    background-color:#ababab;
+}
+
+.br_light_grey{
+    background-color: #d9d9d9;
+}
+.br_white{
+    background-color: white;
+}
+#nav{
+    margin-left: auto;
+}
