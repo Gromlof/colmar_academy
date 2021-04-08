@@ -1,17 +1,90 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.column{
+h3, h4, h5, h6{
+    all: unset;
+}
+
+nav{
+    height: 64px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    all: unset;
+}
+
+video{
+    width: 100%;
+}
+
+h2{
+    font-size: 50px;
+}
+
+#truc{
+    font-size: 24px;
+}
+
+
+.split_left{
+    width: 60%;
+}
+
+.split_right{
+    width: 40%;
+}
+
+.center{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.section3 img{
+    width: 100%;
+    height: auto;
+}
+.split_right img{
+    width: 100%;
+    height: auto;
+}
+.containerS3{
+    margin: 16px;
+    padding: 16px;
+    width:500px;
+    height: 350px;
+    
+}
+.containerS2_S4{
+    margin: 8px 8px;
+    padding: 16px; 
+}
+.containerS2_S4 img{
+    width: 35%;
+    height: auto;
+}
+.navLink{
+    text-decoration: none;    margin-inline: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.column{
+    display: flex;
     flex-direction: column;
 }
 
 .row{
     display: flex;
-    align-items: center;
     flex-direction: row;
+}
+
+.bigcontainer{
+    padding: 32px 24px;
+    width: 90%;
 }
 
 .grey{
@@ -19,7 +92,7 @@ body{
 }
 
 .carbon{
-    color: rgb#322f32;
+    color: rgb#313131;
 }
 
 .br_grey{
@@ -32,6 +105,10 @@ body{
 .br_white{
     background-color: white;
 }
+
 #nav{
     margin-left: auto;
+}
+#Logo{
+    font-size: 32px;
 }
