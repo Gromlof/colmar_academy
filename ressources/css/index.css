@@ -1,8 +1,23 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 h3, h4, h5, h6{
     all: unset;
+}
+
+h4{
+    line-height: 1.5em;
+    font-size: 22px;
+}
+h3{
+    line-height: 1.5em;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 50px;
 }
 
 nav{
@@ -21,12 +36,8 @@ video{
     width: 100%;
 }
 
-h2{
-    font-size: 50px;
-}
-
-#truc{
-    font-size: 24px;
+p{
+    line-height: 1.5em;
 }
 
 
@@ -41,8 +52,14 @@ h2{
 .center{
     display: flex;
     justify-content: center;
+}
+.align{
+    display: flex;
     align-items: center;
 }
+
+/* images */
+
 .section3 img{
     width: 100%;
     height: auto;
@@ -51,24 +68,64 @@ h2{
     width: 100%;
     height: auto;
 }
-.containerS3{
-    margin: 16px;
-    padding: 16px;
-    width:500px;
-    height: 350px;
-    
-}
-.containerS2_S4{
-    margin: 8px 8px;
-    padding: 16px; 
-}
 .containerS2_S4 img{
-    width: 35%;
+    width: 50%;
     height: auto;
 }
+
+/*       */
+
+.containerS3{
+    margin: 32px;
+    width:550px;
+    height: 600px; 
+}
+.containerS2_S4{
+    padding-left: 2px;
+    margin-bottom: 3px;
+    width:100%;
+    height: auto;  
+}
+
+.border_Left_White{
+    border-left: 3px solid white;
+}
+
+.border_Left{
+    border-left: 3px solid #c9c9c9;
+}
+
+.border_Top_Bot{
+    border-top: 2px solid #c9c9c9;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.border_Top{
+    border-top: 2px solid #c9c9c9;
+}
+
+.border_Bot{
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.marginTop_Bot{
+    margin-top: 32px;
+    margin-top: 32px;
+}
+.padding{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.paddingBig_Box{
+    padding: 32px 24px;
+}
+.margin_Bot{
+    margin-bottom: 32px;
+}
+
 .navLink{
     text-decoration: none;    margin-inline: 8px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -81,7 +138,6 @@ h2{
     display: flex;
     flex-direction: row;
 }
-
 .bigcontainer{
     padding: 32px 24px;
     width: 90%;
@@ -96,14 +152,24 @@ h2{
 }
 
 .br_grey{
-    background-color:#ababab;
+    background-color:#c9c9c9;
 }
 
 .br_light_grey{
-    background-color: #d9d9d9;
+    background-color: #c9c9c9;
 }
 .br_white{
     background-color: white;
+}
+
+.only_marge_left{
+    margin-left: 72px;
+    
+}
+
+.only_marge_right{
+    margin-right: 72px;
+
 }
 
 #nav{
