@@ -226,7 +226,6 @@ section{
 .containerS2_S4{
     display: unset;
     display: flex;
-    flex-direction: column;
 }
 
 #nav{
@@ -245,7 +244,7 @@ section{
     display: none;
 }
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1400px){
 
     .hideWhenFullScreen{
         display: unset;
