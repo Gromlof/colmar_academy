@@ -122,16 +122,16 @@ section{
 }
 
 .border_Top_Bot{
-    border-top: 2px solid #EFEFEF;
-    border-bottom: 2px solid #EFEFEF;
+    border-top: 2px solid #313131;
+    border-bottom: 2px solid #313131;
 }
 
 .border_Top{
-    border-top: 2px solid #EFEFEF;
+    border-top: 2px solid #313131;
 }
 
 .border_Bot{
-    border-bottom: 2px solid #EFEFEF;
+    border-bottom: 2px solid #313131;
 }
 /* borders for last sections */
 
@@ -158,9 +158,14 @@ section{
     padding-left: 8em;
     padding-top: 32px;
 }
-
+.padding_Overall{
+    padding: 1em;;
+}
 .margin_Bot{
     margin-bottom: 32px;
+}
+.margin_Top{
+    margin-top: 32px;
 }
 
 .navLink{
@@ -215,6 +220,14 @@ section{
     margin-right: 72px;
 
 }
+.hideWhenFullScreen{
+    display: none;
+}
+.containerS2_S4{
+    display: unset;
+    display: flex;
+    flex-direction: column;
+}
 
 #nav{
     margin-left: auto;
@@ -232,7 +245,11 @@ section{
     display: none;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1600px){
+
+    .hideWhenFullScreen{
+        display: unset;
+    }
 
     h4{
        font-size:2em;
@@ -252,12 +269,15 @@ section{
     }
     #orientation_Mobile {
         display: unset;
+        width: 100%;
     }
     #orientation_Campus {
         display: unset;
+        width: 100%;
     }
     #orientation_Guest {
         display: unset;
+        width: 100%;
     }
     .containerS2_S4{
         justify-content: center;
@@ -266,10 +286,7 @@ section{
     .padding_S2_Right{
         all: unset;
     }
-    .split_right{
-        width: 100%;
-        margin-top: 6px;
-    }
+ 
     .paddingBig_Box{
         padding: unset;
     }
@@ -281,8 +298,9 @@ section{
     #nav{
         margin-left: unset;
         margin: auto;
+
     }
-    #nav a{
+    #nav span{
         margin-inline:3.2em;
     }
     #Logo{
@@ -331,6 +349,47 @@ section{
     }
     #section_Splite_Right p{
         font-size: 32px;
+    }
+
+  }
+  @media screen and (max-width: 656px) {
+    #nav span{
+        margin-inline:0.5em;
+    }
+    h2{
+        all: unset;
+        font-size: 30px; 
+        margin: 0.5em;
+    }
+    h3{
+        all: unset;
+        font-size: 22px; 
+        margin: 0.5em;
+    }
+    h4{
+        all: unset;
+        font-size: 18px; 
+        margin: 0.5em;
+    }
+    p{
+        all: unset;
+        font-size: 16px; 
+        margin: 0.5em;
+    }
+    a{
+        all: unset;
+        font-size: 16px; 
+        margin: 0.5em;
+    }
+    #section_Splite_Right h2{
+        all: unset;
+        font-size: 30px;
+        margin: 0.5em;
+    }
+    #section_Splite_Right p{
+        all: unset;
+        font-size: 16px;
+        margin: 0.5em;
     }
 
   }

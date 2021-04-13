@@ -13,10 +13,22 @@
     <nav class="row align">
         <h3 id="Logo" class="carbon">COLMAR <span class="grey">ACADEMY</span> </h3>
         <div id="nav">
-            <span><a class="navLink" href="">On campus</a></span>
-            <span><a class="navLink" href="">Online</a></span>
-            <span><a class="navLink" href="">For companies</a></span>
-            <span><a class="navLink" href="">Sign in</a></span>
+            <span>
+                <a href=""><img class="hideWhenFullScreen" src="./ressources/images/ic-logo.svg" alt=""></a>
+                <a class="navLink hide" href="">On campus</a>
+                </span>
+            <span>
+                <a href=""><img class="hideWhenFullScreen" src="./ressources/images/ic-on-campus.svg" alt=""></a>
+                <a class="navLink hide" href="">Online</a>
+            </span>
+            <span>
+                <a href=""><img class="hideWhenFullScreen" src="./ressources/images/ic-online.svg" alt=""></a>
+                <a class="navLink hide" href="">For companies</a>
+            </span>
+            <span>
+                <a href=""><img class="hideWhenFullScreen" src="./ressources/images/ic-login.svg" alt=""></a>
+                <a class="navLink hide" href="">Sign in</a>
+            </span>
         </div>
     </nav>
 
@@ -47,7 +59,7 @@
             </div>
         </div>
         <div class="column split_right  border_Left padding_S2_Right">
-            <div class="Changing_row br_white containerS2_S4 border_Bot ">
+            <div class="Changing_row br_white containerS2_S4 border_Top ">
                 <img id="orientation" src="./ressources/images/information-orientation.jpg" alt="">
                 <img id="orientation_Mobile" src="./ressources/images/information-orientation-mobile.jpg" alt="">
                 <div class="column padding containerS2_S4">
@@ -65,7 +77,7 @@
                     <a href="">Read more</a>
                 </div>
             </div>
-            <div class="Changing_row br_grey containerS2_S4">
+            <div class="Changing_row br_grey containerS2_S4 border_Bot">
                 <img id="guest" src="./ressources/images/information-guest-lecture.jpg" alt="">
                 <img id="orientation_Guest" src="./ressources/images/information-guest-lecture-mobile.jpg" alt="">
                 <div class="column padding containerS2_S4">
@@ -81,9 +93,21 @@
 
     <!-- section 3 -->
 
-    <section class="column br_light_grey section3">
-        <h2 class="center">Start learning</h2>
+    <!-- Smartphone view -->
 
+    <section class="column hideWhenFullScreen">
+        <h2 class="center">Start learning</h2>
+        <div class="br_grey margin_Bot center padding_Overall border_Top_Bot  margin_Top"><h3>Software engineering</h3></div>
+        <div class="br_grey margin_Bot center padding_Overall border_Top_Bot"><h3>Computer art</h3></div>
+        <div class="br_grey margin_Bot center padding_Overall border_Top_Bot"><h3>Design</h3></div>
+        <div class="br_grey margin_Bot center padding_Overall border_Top_Bot"><h3>Data</h3></div>
+        <div class="br_grey margin_Bot center padding_Overall border_Top_Bot"><h3>Business</h3></div>
+        <div class="br_grey margin_Bot center padding_Overall border_Top_Bot"><h3>Marketing</h3></div>
+    </section>    
+    <!-- Smartphone view -->
+
+    <section class="column br_light_grey section3 hide">
+        <h2 class="center">Start learning</h2>
         <div class="row center">
             <div class="column br_white containerS3 only_marge_left">
                 <img src="./ressources/images/course-software.jpg" alt="">
@@ -166,16 +190,18 @@
 
             <div class="column split_left ">
                 <video class="bigcontainer" src="./ressources/videos/thesis.mp4" controls></video>
-                <p class="bigcontainer">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Aliquid nesciunt excepturi quasi laudantium nisi!
-                    Atque praesentium ipsa quaerat facere aut, sit quisquam
-                    minus incidunt quia magnam excepturi officiis delectus dicta.
-                </p>
+                <div class="hide">
+                    <p class="bigcontainer">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Aliquid nesciunt excepturi quasi laudantium nisi!
+                        Atque praesentium ipsa quaerat facere aut, sit quisquam
+                        minus incidunt quia magnam excepturi officiis delectus dicta.
+                    </p>
+                </div>
             </div>
 
-            <div class="column border_Left paddingBig_Box split_right">
-                <div class="row br_grey containerS2_S4 border_Top_Bot margin_Bot">
+            <div class="column border_Left paddingBig_Box split_right hide">
+                <div class="row br_grey containerS2_S4  margin_Bot border_Top_Bot">
                     <img class="containerS2_S4" src="./ressources/images/thesis-fisma.jpg" alt="">
                     <div class="column padding containerS2_S4">
                         <h4>Our campus</h4>
@@ -183,7 +209,7 @@
                         <a href="">Read more</a>
                     </div>
                 </div>
-                <div class="row br_white containerS2_S4 border_Top_Bot">
+                <div class="row br_white containerS2_S4 border_Top">
                     <img class="containerS2_S4" src="./ressources/images/thesis-now-and-then.jpg" alt="">
                     <div class="column padding containerS2_S4">
                         <h4>Our guest lecture</h4>
